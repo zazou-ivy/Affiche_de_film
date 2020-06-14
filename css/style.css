@@ -1,0 +1,204 @@
+
+@font-face{
+  font-family: "BodoniFLF-Bold";
+  src: url('../fonts/BodoniFLF-Bold.ttf');
+}
+
+body{
+
+background-image: url("../images/backgro.jpg");
+background-repeat: no-repeat;
+background-position: top,center;
+}
+
+
+header {
+  text-align: center;
+  color: #5B5B5B;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  padding-top: 210px;
+  padding-bottom: 12px;
+
+}
+
+p {
+  margin: 0;
+}
+
+.small_producter p {
+color: #5B5B5B;
+font-family: 'roboto', sans-serif;
+font-size: 0.9rem;
+margin: 0px;
+font-weight: bold;
+
+}
+
+.big_producter p{
+  color: #5B5B5B;
+  font-family: 'roboto', sans-serif;
+  font-size: 1.1rem;
+  margin: 0px;
+  font-weight: bold;
+
+}
+
+header p {
+margin: 0px;
+}
+
+.parag_white p {
+color: white;
+text-align: center;
+margin: 0px;
+font-size: 3rem;
+font-family: 'BodoniFLF-Bold', serif;
+
+
+}
+.parag_black p{
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'BodoniFLF-Bold', serif;
+  padding-bottom: 85px;
+  margin: 0px 15px;
+}
+
+
+.sentence_interstellar {
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  margin: auto;
+  font-weight:600;
+  padding: 40px 0px;
+}
+
+
+.Production{
+
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+    flex-direction: row;
+}
+
+
+
+.small_text_credits {
+
+ align-self: center;
+ font-size: 0.3rem;
+ color: #5B5D64;
+ font-family: 'roboto condensed', sans-serif;
+ text-align: right;
+ align-items: baseline;
+ font-weight: inherit;
+ padding: 0.3px 1px;
+
+
+
+}
+
+.mid_text_credits{
+
+  font-size: 0.45rem;
+  color:#65696C;
+  font-family: 'roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-weight: bold;
+ padding: 0.3px 1px;
+}
+
+.big_text_credits {
+ /* align-self: center; */
+ font-size: 0.6rem;
+ color:#5B5D64;
+ font-family: 'roboto ', sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: baseline;
+ padding: 0.3px 1px;
+}
+
+
+
+.line {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: baseline;
+
+}
+.Warner_Bros{
+  width: 10px;
+  height:10px;
+  margin: 5px;
+
+}
+.legendary_pictures{
+  width:25px;
+  height:25px;
+  margin: 5px;
+
+}
+.syncopy{
+  width: 20px;
+  height:10px;
+  margin: 5px;
+}
+/* .imax{
+
+display: flex;
+flex-direction: row;
+
+} */
+
+.imax_area{
+  margin: 5px 5px;
+}
+.big_imax{
+  font-size: 0.6rem;
+  color: white;
+  font-family: 'Josefin sans', sans-serif;
+  opacity: 0.7;
+
+}
+
+
+.small_imax{
+
+  font-size: 0.4rem;
+  color: white;
+  font-family: 'Josefin sans', sans-serif;
+  opacity: 0.7;
+
+}
+.paramount{
+  width: 10px;
+  height:10px;
+opacity: 0.5;
+margin: 5px;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.interstellar_movie{
+color: white;
+opacity: 0.5;
+font-size: 10px;
+
+}
